@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "crop_enchants",
+  "version": "${version}",
+  "name": "Crop Enchants",
+  "description": "A small fabric mod that adds crop related enchants.",
+  "authors": [
+    "M1nxy"
+  ],
+  "contact": {
+    "repo": "https://github.com/M1nxy/Crop-Enchants"
+  },
+  "license": "MIT License",
+  "icon": "assets/crop_enchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.m1nxy.crop_enchants.CropEnchants"
+    ]
+  },
+  "mixins": [
+    "crop_enchants.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.9",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
